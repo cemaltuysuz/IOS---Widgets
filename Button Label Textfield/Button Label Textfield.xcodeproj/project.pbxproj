@@ -17,6 +17,11 @@
 		15B0804C26D2A3DA002B340B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0804B26D2A3DA002B340B /* TextView.swift */; };
 		15B0804F26D2A8CA002B340B /* SwitchSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0804E26D2A8CA002B340B /* SwitchSegment.swift */; };
 		15B0805226D2B2C2002B340B /* SliderStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805126D2B2C2002B340B /* SliderStepper.swift */; };
+		15B0805526D2C182002B340B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805426D2C182002B340B /* ActivityIndicator.swift */; };
+		15B0805826D2C511002B340B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805726D2C511002B340B /* ImageView.swift */; };
+		15B0805B26D2CDD5002B340B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805A26D2CDD5002B340B /* WebView.swift */; };
+		15B0806226D2D217002B340B /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0806126D2D217002B340B /* VideoView.swift */; };
+		15B0806526D2D41F002B340B /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15B0806426D2D41F002B340B /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		15B0804B26D2A3DA002B340B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		15B0804E26D2A8CA002B340B /* SwitchSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSegment.swift; sourceTree = "<group>"; };
 		15B0805126D2B2C2002B340B /* SliderStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepper.swift; sourceTree = "<group>"; };
+		15B0805426D2C182002B340B /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		15B0805726D2C511002B340B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		15B0805A26D2CDD5002B340B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		15B0806126D2D217002B340B /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		15B0806426D2D41F002B340B /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,7 @@
 		15B0803226D29009002B340B /* Button Label Textfield */ = {
 			isa = PBXGroup;
 			children = (
+				15B0806426D2D41F002B340B /* video.mp4 */,
 				15B0803326D29009002B340B /* AppDelegate.swift */,
 				15B0803526D29009002B340B /* SceneDelegate.swift */,
 				15B0803726D29009002B340B /* ViewController.swift */,
@@ -75,6 +86,10 @@
 				15B0804B26D2A3DA002B340B /* TextView.swift */,
 				15B0804E26D2A8CA002B340B /* SwitchSegment.swift */,
 				15B0805126D2B2C2002B340B /* SliderStepper.swift */,
+				15B0805426D2C182002B340B /* ActivityIndicator.swift */,
+				15B0805726D2C511002B340B /* ImageView.swift */,
+				15B0805A26D2CDD5002B340B /* WebView.swift */,
+				15B0806126D2D217002B340B /* VideoView.swift */,
 			);
 			path = "Button Label Textfield";
 			sourceTree = "<group>";
@@ -139,6 +154,7 @@
 				15B0804026D2900C002B340B /* LaunchScreen.storyboard in Resources */,
 				15B0803D26D2900C002B340B /* Assets.xcassets in Resources */,
 				15B0803B26D29009002B340B /* Main.storyboard in Resources */,
+				15B0806526D2D41F002B340B /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,11 +166,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B0803826D29009002B340B /* ViewController.swift in Sources */,
+				15B0805B26D2CDD5002B340B /* WebView.swift in Sources */,
 				15B0803426D29009002B340B /* AppDelegate.swift in Sources */,
 				15B0804926D29EB6002B340B /* ButtonLabelTextField.swift in Sources */,
 				15B0805226D2B2C2002B340B /* SliderStepper.swift in Sources */,
+				15B0805526D2C182002B340B /* ActivityIndicator.swift in Sources */,
 				15B0804F26D2A8CA002B340B /* SwitchSegment.swift in Sources */,
+				15B0805826D2C511002B340B /* ImageView.swift in Sources */,
 				15B0803626D29009002B340B /* SceneDelegate.swift in Sources */,
+				15B0806226D2D217002B340B /* VideoView.swift in Sources */,
 				15B0804C26D2A3DA002B340B /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
