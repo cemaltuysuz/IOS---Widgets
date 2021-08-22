@@ -22,6 +22,7 @@
 		15B0805B26D2CDD5002B340B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805A26D2CDD5002B340B /* WebView.swift */; };
 		15B0806226D2D217002B340B /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0806126D2D217002B340B /* VideoView.swift */; };
 		15B0806526D2D41F002B340B /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15B0806426D2D41F002B340B /* video.mp4 */; };
+		15B0806826D2DA1E002B340B /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0806726D2DA1E002B340B /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		15B0805A26D2CDD5002B340B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		15B0806126D2D217002B340B /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		15B0806426D2D41F002B340B /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../video.mp4; sourceTree = "<group>"; };
+		15B0806726D2DA1E002B340B /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				15B0805726D2C511002B340B /* ImageView.swift */,
 				15B0805A26D2CDD5002B340B /* WebView.swift */,
 				15B0806126D2D217002B340B /* VideoView.swift */,
+				15B0806726D2DA1E002B340B /* ScrollView.swift */,
 			);
 			path = "Button Label Textfield";
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				15B0803426D29009002B340B /* AppDelegate.swift in Sources */,
 				15B0804926D29EB6002B340B /* ButtonLabelTextField.swift in Sources */,
 				15B0805226D2B2C2002B340B /* SliderStepper.swift in Sources */,
+				15B0806826D2DA1E002B340B /* ScrollView.swift in Sources */,
 				15B0805526D2C182002B340B /* ActivityIndicator.swift in Sources */,
 				15B0804F26D2A8CA002B340B /* SwitchSegment.swift in Sources */,
 				15B0805826D2C511002B340B /* ImageView.swift in Sources */,
