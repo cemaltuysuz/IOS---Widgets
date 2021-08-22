@@ -13,6 +13,10 @@
 		15B0803B26D29009002B340B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B0803926D29009002B340B /* Main.storyboard */; };
 		15B0803D26D2900C002B340B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B0803C26D2900C002B340B /* Assets.xcassets */; };
 		15B0804026D2900C002B340B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B0803E26D2900C002B340B /* LaunchScreen.storyboard */; };
+		15B0804926D29EB6002B340B /* ButtonLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0804826D29EB5002B340B /* ButtonLabelTextField.swift */; };
+		15B0804C26D2A3DA002B340B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0804B26D2A3DA002B340B /* TextView.swift */; };
+		15B0804F26D2A8CA002B340B /* SwitchSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0804E26D2A8CA002B340B /* SwitchSegment.swift */; };
+		15B0805226D2B2C2002B340B /* SliderStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B0805126D2B2C2002B340B /* SliderStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		15B0803C26D2900C002B340B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B0803F26D2900C002B340B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B0804126D2900C002B340B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B0804826D29EB5002B340B /* ButtonLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelTextField.swift; sourceTree = "<group>"; };
+		15B0804B26D2A3DA002B340B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		15B0804E26D2A8CA002B340B /* SwitchSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSegment.swift; sourceTree = "<group>"; };
+		15B0805126D2B2C2002B340B /* SliderStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				15B0803C26D2900C002B340B /* Assets.xcassets */,
 				15B0803E26D2900C002B340B /* LaunchScreen.storyboard */,
 				15B0804126D2900C002B340B /* Info.plist */,
+				15B0804826D29EB5002B340B /* ButtonLabelTextField.swift */,
+				15B0804B26D2A3DA002B340B /* TextView.swift */,
+				15B0804E26D2A8CA002B340B /* SwitchSegment.swift */,
+				15B0805126D2B2C2002B340B /* SliderStepper.swift */,
 			);
 			path = "Button Label Textfield";
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			files = (
 				15B0803826D29009002B340B /* ViewController.swift in Sources */,
 				15B0803426D29009002B340B /* AppDelegate.swift in Sources */,
+				15B0804926D29EB6002B340B /* ButtonLabelTextField.swift in Sources */,
+				15B0805226D2B2C2002B340B /* SliderStepper.swift in Sources */,
+				15B0804F26D2A8CA002B340B /* SwitchSegment.swift in Sources */,
 				15B0803626D29009002B340B /* SceneDelegate.swift in Sources */,
+				15B0804C26D2A3DA002B340B /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
